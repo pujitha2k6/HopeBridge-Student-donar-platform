@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HopeBridge</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Poppins', sans-serif;
+        background-color: #F8F9FE;
+      }
+      /* Custom Scrollbar for cleaner UI */
+      ::-webkit-scrollbar {
+        width: 6px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #C4C4C4; 
+        border-radius: 10px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #553CFF; 
+      }
+    </style>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#553CFF',
+              secondary: '#6E43E5',
+              accent: '#FFC145',
+              bgLight: '#F8F9FE',
+              textDark: '#1A1A1A',
+              textGray: '#8A8A8A'
+            },
+            boxShadow: {
+              'soft': '0 10px 40px -10px rgba(0,0,0,0.08)',
+              'card': '0 4px 20px rgba(85, 60, 255, 0.08)'
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "lucide-react": "https://esm.sh/lucide-react@^0.561.0",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "@google/genai": "https://esm.sh/@google/genai@^1.33.0",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.10.1",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "recharts": "https://esm.sh/recharts@^3.5.1"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

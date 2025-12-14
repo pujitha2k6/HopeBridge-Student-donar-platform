@@ -1,0 +1,8 @@
+{
+  "name": "HopeBridge",
+  "description": "An AI-powered platform connecting financially struggling students with donors to support education through verified funding.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
